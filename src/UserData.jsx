@@ -55,11 +55,11 @@ import React, { Component } from 'react';
     render() {
       return (
           <div className="userdata">
-              <h1>Test user data</h1>
-              {/* TODO: Add more menu items with onSelect handlers*/}
+              {/* <h1>Test user data</h1>
+               TODO: Add more menu items with onSelect handlers
               <input type="text" placeholder="Search" onChange={this.onSearch} />
             <p> {this.getUser("defaultUser", "password")} </p>
-            <p> {this.addUser("testUser", "email", "pass")} </p>
+            <p> {this.addUser("testUser", "email", "pass")} </p> */}
           </div>
         );
     }
